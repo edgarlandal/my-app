@@ -1,0 +1,20 @@
+p {
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.menu a {
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    color: black;
+}

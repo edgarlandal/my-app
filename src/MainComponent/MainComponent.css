@@ -1,0 +1,19 @@
+#about, #resume, #projects, #contact {
+    padding: 20px;
+}
+
+#resume{
+    /* background-color: aqua; */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container img{
+    width: 80%;
+    height: 80%;
+}

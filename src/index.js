@@ -1,13 +1,55 @@
+/**
+ * React Imports
+ */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+/**
+ * Style Imports
+ */
 import './index.css';
-import App from './App';
+
+/**
+ * Others Import
+ */
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+/**
+ * Components Imports
+ */
+import NavComponent from "./NavComponent/NavComponent.js";
+import MainComponent from "./MainComponent/MainComponent.js"
+import FooterComponent from "./FooterComponent/FooterComponent.js";
+
+/**
+ * Header Content
+ */
+const header = ReactDOM.createRoot(document.getElementById('header'));
+header.render(
   <React.StrictMode>
-    <App />
+    <NavComponent />
+  </React.StrictMode>
+);
+
+
+/**
+ * Main Content
+ */
+const main = ReactDOM.createRoot(document.getElementById('main'));
+main.render(
+  <React.StrictMode>
+    <MainComponent/>
+  </React.StrictMode>
+);
+
+
+/**
+ * Footer Content
+ */
+const footer = ReactDOM.createRoot(document.getElementById('footer'));
+footer.render(
+  <React.StrictMode>
+    <FooterComponent/>
   </React.StrictMode>
 );
 
