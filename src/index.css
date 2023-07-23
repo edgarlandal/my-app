@@ -4,12 +4,17 @@ body {
 }
 
 header{
-  background-color: #393E46;
+  background-color: #27374D;
   align-items: center;
   justify-content: center;
 }
 
 main {
-  background-color: #F7F7F7;
   min-height: 100vh;
+}
+
+footer {
+  background-color: #27374D;
+  align-items: center;
+  justify-content: center;
 }

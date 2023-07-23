@@ -20,8 +20,10 @@ class FooterComponent extends React.Component{
 
     render(){
         return(
-            <div>
-
+            <div className="container">
+                <div className="footer">
+                    <h3>By Edgar Miguel Landa Luna</h3>
+                </div>
             </div>
         )
     }
