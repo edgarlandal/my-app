@@ -17,9 +17,9 @@ import reportWebVitals from './reportWebVitals';
 /**
  * Components Imports
  */
-import NavComponent from "./NavComponent/NavComponent.js";
-import MainComponent from "./MainComponent/MainComponent.js"
-import FooterComponent from "./FooterComponent/FooterComponent.js";
+import NavComponent from "./NavComponent/NavComponent.jsx";
+import MainComponent from "./MainComponent/MainComponent.jsx"
+import FooterComponent from "./FooterComponent/FooterComponent.jsx";
 
 /**
  * Header Content

@@ -1,6 +1,7 @@
-h2,
 h4 {
-    border-radius: 10px;
+    color: white;
+    text-align: justify;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #about,
@@ -10,49 +11,52 @@ h4 {
     padding: 20px;
 }
 
-.about,.resume,.projects, .contact{ 
+.about,
+.resume,
+.projects,
+.contact {
     background-color: #9DB2BF;
     padding: 20px;
     margin: 20px;
     border: 0px solid;
     border-radius: 10px;
-
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
-
     text-align: center;
 }
 
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: center;
-    align-items: center;
-}
-
 .img-containers {
-    background-size: contain;
+    display: inline-block;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #DDE6ED;
     margin: 10px;
     padding: 10px;
-    width: 90%;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 10px;
-
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
-.form-container { 
+.form-container {
     background-color: #DDE6ED;
     border-radius: 10px;
     padding: 10px;
-    margin: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
 }
 
 .form-content {
     background-color: white;
-    margin: 10px ;
+    margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .img-containers {
+        width: 80px;
+        height: 80px;
+    }
 }
